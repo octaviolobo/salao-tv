@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #111;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #eee;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  height: 100%;
+}
+
+/* LISTA */
+.list {
+  padding: 60px;
+  background: #151515;
+}
+
+.list header {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  font-size: 1.6rem;
+}
+
+/* DESTAQUE */
+.highlight {
+  position: relative;
+
+  /* AQUI a imagem PNG */
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.55)
+    ),
+    url("../assets/destaque1.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+}
+
+
+.badge {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: #c9b37e;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: #c9b37e;
+  margin-bottom: 20px;
+}
+
+.note {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+#services {
+  animation: fade 0.8s ease;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

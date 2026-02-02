@@ -37,18 +37,15 @@ body {
   border-bottom: 1px solid rgba(255,255,255,0.08);
   font-size: 1.6rem;
 }
-
 /* DESTAQUE */
 .highlight {
   position: relative;
 
-  /* AQUI a imagem PNG */
   background:
     linear-gradient(
       rgba(0,0,0,0.55),
       rgba(0,0,0,0.55)
-    ),
-    url("../assets/destaque1.png");
+    );
 
   background-size: cover;
   background-position: center;

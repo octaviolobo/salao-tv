@@ -14,16 +14,16 @@ const services = [
   { name: "SPA DOS PÉS", price: "A partir de R$ 150" },
 
   // ===== ESTÉTICA =====
-  { name: "DEPILAÇÃO DE BUÇO COM LINHA", price: "R$ 35" },
+  { name: "DEPILAÇÃO DE BUÇO COM LINHA", price: "A partir de R$ 35" },
   { name: "DRENAGEM LINFÁTICA", price: "A partir de R$ 190" },
-  { name: "DRENAGEM LINFÁTICA CORPORAL", price: "a partir de R$ 200" },
-  { name: "MASSAGEM RELAXANTE", price: "a partir de R$ 200" },
-  { name: "MASSAGEM MODELADORA – LIPOMODELADORA", price: "a partir de R$ 190" },
-  { name: "MASSAGEM RELAXANTE COM PEDRAS QUENTES", price: "a partir de R$ 200 " },
-  { name: "VENTOSATERAPIA CORPORAL", price: "a partir de R$ 200" },
-  { name: "LIMPEZA DE PELE INDOLOR", price: "a partir de R$ 219,99" },
-  { name: "LIMPEZA DE PELE COM VIP", price: "a partir de R$ 160" },
-  { name: "ESCALDA PÉS", price: "a partir de R$ 90" }
+  { name: "DRENAGEM LINFÁTICA CORPORAL", price: "A partir de R$ 200" },
+  { name: "MASSAGEM RELAXANTE", price: "A partir de R$ 200" },
+  { name: "MASSAGEM MODELADORA – LIPOMODELADORA", price: "A partir de R$ 190" },
+  { name: "MASSAGEM RELAXANTE COM PEDRAS QUENTES", price: "A partir de R$ 200 " },
+  { name: "VENTOSATERAPIA CORPORAL", price: "A partir de R$ 200" },
+  { name: "LIMPEZA DE PELE INDOLOR", price: "A partir de R$ 219,99" },
+  { name: "LIMPEZA DE PELE COM VIP", price: "A partir de R$ 160" },
+  { name: "ESCALDA PÉS", price: "A partir de R$ 90" }
 ];
 
 

@@ -4,36 +4,25 @@ const INTERVAL = 7000;
 
 // ===== SERVIÇOS =====
 const services = [
- 
+  // ===== CABELO =====
   { name: "BABY LISS / CACHOS", price: "A partir de R$ 100" },
   { name: "PENTEADO", price: "A partir de R$ 180" },
-  
-
-  
-
-  
-  { name: "DEPILAÇÃO DE BUÇO COM LINHA", price: "R$ 35" },
-  
-  
   { name: "ESCOVA SIMPLES", price: "A partir de R$ 65" },
+  { name: "ESCOVA MODELADA", price: "A partir de R$ 85" },
+  { name: "ESCOVA CABELO COM MEGA HAIR", price: "A partir de R$ 130" },
   
+  { name: "SPA DOS PÉS", price: "A partir de R$ 150" },
 
-  
-
+  // ===== ESTÉTICA =====
+  { name: "DEPILAÇÃO DE BUÇO COM LINHA", price: "R$ 35" },
   { name: "DRENAGEM LINFÁTICA", price: "A partir de R$ 190" },
   { name: "DRENAGEM LINFÁTICA CORPORAL", price: "a partir de R$ 200" },
   { name: "MASSAGEM RELAXANTE", price: "a partir de R$ 200" },
   { name: "MASSAGEM MODELADORA – LIPOMODELADORA", price: "a partir de R$ 190" },
-  
   { name: "MASSAGEM RELAXANTE COM PEDRAS QUENTES", price: "a partir de R$ 200 " },
   { name: "VENTOSATERAPIA CORPORAL", price: "a partir de R$ 200" },
-
-  
-  
-
   { name: "LIMPEZA DE PELE INDOLOR", price: "a partir de R$ 219,99" },
   { name: "LIMPEZA DE PELE COM VIP", price: "a partir de R$ 160" },
-
   { name: "ESCALDA PÉS", price: "a partir de R$ 90" }
 ];
 
@@ -90,7 +79,7 @@ const highlights = [
   },
   {
     title: "Botox",
-    price: "A partir de R$ 200",
+    price: "A partir de R$ 299,99",
     note: "Tratamento intensivo para fios alinhados, sedosos e com brilho imediato.",
     image: "assets/destaque1.png"
   }

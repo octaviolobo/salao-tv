@@ -5,7 +5,10 @@
 }
 
 body {
-  height: 100vh;
+  width: 1366px;
+  height: 768px;
+  margin: 0;
+  zoom: 1.25; /* ajuda bastante em TVs */
   background: #D4C5B9;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;
@@ -25,7 +28,7 @@ body::before {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.4;
+  opacity: 0.2;
   pointer-events: none;
   z-index: 10;
 }
@@ -55,8 +58,8 @@ body::before {
 .row {
   display: flex;
   justify-content: space-between;
-  padding: 18px 0;
-  font-size: 1.6rem;
+  padding: 50px 0;
+  font-size: 2.2rem;
   color: #333;
 }
 

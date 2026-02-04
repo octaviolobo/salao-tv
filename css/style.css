@@ -8,7 +8,6 @@ body {
   width: 1366px;
   height: 768px;
   margin: 0;
-  zoom: 1.25; /* ajuda bastante em TVs */
   background: #D4C5B9;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;

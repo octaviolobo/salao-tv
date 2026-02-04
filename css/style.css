@@ -5,9 +5,7 @@
 }
 
 body {
-  width: 1366px;
-  height: 768px;
-  margin: 0;
+  height: 100vh;
   background: #D4C5B9;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;
@@ -42,7 +40,7 @@ body::before {
 
 /* LISTA */
 .list {
-  padding: 60px;
+  padding: 60px 120px 60px 60px; /* extra right padding to avoid TV overscan */
   background: #D4C5B9;
 }
 
@@ -60,6 +58,18 @@ body::before {
   padding: 50px 0;
   font-size: 2.2rem;
   color: #333;
+}
+
+/* keep the name flexible and truncate if too long, and ensure price never wraps */
+.row span:first-child {
+  flex: 1;
+  padding-right: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.row span:last-child {
+  white-space: nowrap;
 }
 
 /* DESTAQUE */

@@ -5,10 +5,9 @@
 }
 
 body {
-  width: 1280px;
-  height: 720px;
+  width: 100%;
+  min-height: 100vh;
   margin: 0;
-  zoom: 1.25; /* scale up for TV resolution */
   background: #D4C5B9;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;
@@ -37,12 +36,13 @@ body::before {
   display: grid;
   grid-template-columns: 65% 35%;
   grid-template-rows: 1fr;
-  height: 100%;
+  min-height: 100vh;
   position: relative;
   z-index: auto;
   width: 100%;
   max-width: 1366px; /* match TV width */
   margin: 0 auto; /* center on larger screens */
+  column-gap: 24px;
 }
 
 /* allow grid children to shrink so columns stay side-by-side */

@@ -5,7 +5,9 @@
 }
 
 body {
-  height: 100vh;
+  width: 1920px;
+  height: 1080px;
+  margin: 0;
   background: #D4C5B9;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;
@@ -33,9 +35,19 @@ body::before {
 .layout {
   display: grid;
   grid-template-columns: 65% 35%;
+  grid-template-rows: 1fr;
   height: 100%;
   position: relative;
   z-index: auto;
+  width: 100%;
+  max-width: 1366px; /* match TV width */
+  margin: 0 auto; /* center on larger screens */
+}
+
+/* allow grid children to shrink so columns stay side-by-side */
+.layout > .list,
+.layout > .highlight {
+  min-width: 0;
 }
 
 /* LISTA */

@@ -5,9 +5,10 @@
 }
 
 body {
-  width: 1920px;
-  height: 1080px;
+  width: 1440px;
+  height: 920px;
   margin: 0;
+  zoom: 1.25; /* scale up for TV resolution */
   background: #D4C5B9;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;
